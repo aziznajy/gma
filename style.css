@@ -71,11 +71,11 @@ html {
   height: 100%;
   position: relative;
   overflow: visible;
-  max-width: 100%;
-  overflow-x: hidden; /* لمنع التمرير الأفقي غير المرغوب */
+
 }
 
 body {
+        width: 100%;
   font-family: "Cairo", serif;
   font-size: 15px;
   font-weight: 400;
@@ -83,6 +83,8 @@ body {
   overflow-x: hidden;
   background-color: #ffffff;
   color: #666666;
+  max-width: 100%;
+  overflow-x: hidden; /* لمنع التمرير الأفقي غير المرغوب */
 }
 
 html, body, .wrapper {
