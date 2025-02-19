@@ -2923,7 +2923,7 @@ body,
   content: "";
   height: 150px;
   width: 150px;
-  background: url(assets/img/shape/dotted-bg.png);
+/*   background: url(assets/img/shape/dotted-bg.png); */
   z-index: -1;
   transform: rotate(-45deg);
   background-size: contain;
