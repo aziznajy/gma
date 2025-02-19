@@ -71,6 +71,8 @@ html {
   height: 100%;
   position: relative;
   overflow: visible;
+  max-width: 100%;
+  overflow-x: hidden; /* لمنع التمرير الأفقي غير المرغوب */
 }
 
 body {
@@ -3874,16 +3876,16 @@ body,
   content: "";
   border-top: 8px solid transparent;
   border-bottom: 8px solid transparent;
-  border-left: 10px solid #ff9a2a;
+/*   border-left: 10px solid #ff9a2a; */
 }
 
 .eastern-blue .benifits-area .info ul li::after {
   border-left: 10px solid #1baaa0;
 }
 
-.orange .benifits-area .info ul li::after {
+/* .orange .benifits-area .info ul li::after {
   border-left: 10px solid #ff9a2a;
-}
+} */
 
 .cornflower-blue .benifits-area .info ul li::after {
   border-left: 10px solid #634ded;
