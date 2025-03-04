@@ -72,7 +72,7 @@ html {
   position: relative;
   overflow: visible;
   max-width: 100%;
-  overflow-x: hidden; /* لمنع التمرير الأفقي غير المرغوب */
+/*   overflow-x: hidden; /* لمنع التمرير الأفقي غير المرغوب */
 }
 
 body {
@@ -2920,11 +2920,11 @@ body,
 
 .choose-us-area .info::after {
   position: absolute;
-  left: 480px;
-  top: -50px;
+/*   left: 480px; */
+  top: -50px; 
   content: "";
   height: 150px;
-  width: 150px;
+/*   width: 150px; */
 /*   background: url(assets/img/shape/dotted-bg.png); */
   z-index: -1;
   transform: rotate(-45deg);
